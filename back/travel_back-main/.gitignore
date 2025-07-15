@@ -1,0 +1,43 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+pnpm-debug.log
+
+# Logs
+logs
+*.log
+logs/*
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Database
+/data/
+dump/
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+
+# Build
+build/
+dist/
+out/
+
+# Others
+coverage/
+*.bak
+*.cache/

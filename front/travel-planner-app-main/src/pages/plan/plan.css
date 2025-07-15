@@ -1,0 +1,44 @@
+.itinerary-day {
+    transition: all 0.3s ease;
+}
+
+.itinerary-day:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.budget-bar {
+    height: 8px;
+    border-radius: 4px;
+    background: linear-gradient(90deg, #3b82f6, #8b5cf6);
+}
+
+/* Sidebar styles */
+.aside-nav {
+    scrollbar-width: thin;
+    scrollbar-color: #e2e8f0 transparent;
+}
+
+.aside-nav::-webkit-scrollbar {
+    width: 6px;
+}
+
+.aside-nav::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.aside-nav::-webkit-scrollbar-thumb {
+    background-color: #e2e8f0;
+    border-radius: 3px;
+}
+
+/* Mobile sidebar transition */
+.sidebar-mobile {
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Active navigation item */
+.nav-item-active {
+    background-color: #f0f7ff;
+    color: #3b82f6;
+}

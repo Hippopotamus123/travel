@@ -1,0 +1,27 @@
+.datepicker-wrapper input {
+    width: 100%;
+}
+
+.datepicker-wrapper input,
+.react-datepicker__input-container {
+    cursor: pointer;
+}
+
+.react-datepicker__triangle {
+    display: none;
+}
+
+.react-datepicker__day--selected {
+    background-color: #6a4ff6;
+    color: white;
+}
+
+.datepicker-wrapper,
+.react-datepicker-wrapper,
+.react-datepicker__input-container {
+    width: 100% !important;
+}
+
+.react-datepicker__input-container input {
+    width: 100% !important;
+}
